@@ -1,0 +1,155 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    
+    background: var(--preta);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/img/capa-house.jpg");
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+header .teste{
+    color: #AAA;
+}
+
+header .teste:hover{
+    color: aqua;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    
+
+    height: 450px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    height:100% ;
+    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao-play2{
+    background-color: rgba(0,0,0,.100);
+    border: solid 2px;
+    border-radius: 80px;
+    color: white;
+
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    
+    height: 60px;
+    width: 60px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao-return{
+    background-color: rgba(0,0,0,.100);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+
+.botao-return:hover{
+    background-color: rgba(233,233,233,.50);
+    padding: 5px;
+
+}
+
+.botao-play2:hover{
+    border: solid 2px #450f81;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+  
+    margin-top: 5px;
+}
+
+.lupa{
+    background: #fff;
+}
